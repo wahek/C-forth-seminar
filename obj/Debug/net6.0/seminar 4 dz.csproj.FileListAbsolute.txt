@@ -1,0 +1,15 @@
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\bin\Debug\net6.0\seminar 4 dz.exe
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\bin\Debug\net6.0\seminar 4 dz.deps.json
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\bin\Debug\net6.0\seminar 4 dz.runtimeconfig.json
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\bin\Debug\net6.0\seminar 4 dz.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\bin\Debug\net6.0\seminar 4 dz.pdb
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.csproj.AssemblyReference.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.AssemblyInfoInputs.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.AssemblyInfo.cs
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.csproj.CoreCompileInputs.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\refint\seminar 4 dz.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.pdb
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\seminar 4 dz.genruntimeconfig.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\seminar 4 dz\obj\Debug\net6.0\ref\seminar 4 dz.dll
