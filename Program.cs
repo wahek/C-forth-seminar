@@ -6,18 +6,18 @@
 
 // 2, 4 -> 16
 
-Console.WriteLine("Введите первоe и второе число:");
-int A = int.Parse(Console.ReadLine()!);
-int B = int.Parse(Console.ReadLine()!);
-Console.Write($"Число {A} в степени {B} = {sqr(A)}");
+// Console.WriteLine("Введите первоe и второе число:");
+// int A = int.Parse(Console.ReadLine()!);
+// int B = int.Parse(Console.ReadLine()!);
+// Console.Write($"Число {A} в степени {B} = {sqr(A)}");
 
-int sqr(int a){
-    int A = a;
-    for (int i = 2; i <= B; i++){
-        A = A * a;
-    }
-    return A;
-}
+// int sqr(int a){
+//     int A = a;
+//     for (int i = 2; i <= B; i++){
+//         A = A * a;
+//     }
+//     return A;
+// }
     
 
 
@@ -30,18 +30,31 @@ int sqr(int a){
 // 9012 -> 12
 
 // Console.WriteLine("Введите число:");
-// int num = int.Parse(Console.ReadLine()!);
+// string num = Console.ReadLine()!;
+// Console.WriteLine($"Сумма цифр в числе {num} ровно {DoSum(num)}");
 
-// int doSum(int number){
+// int DoSum(string A){
 //     int sum = 0;
-//     for (int postNum = number;postNum > 0; postNum%10){
-//         int element = num % 10;
-//         sum += element;
+//     int size = A.Length;
+//     for (int i = 0; i < size; i++){
+//         int MyNum = Convert.ToInt32(A[i]);
+//         Console.WriteLine(A[i]);
+//         sum += MyNum;
 //     }
+//     return sum; 
+// }
 
-//     }
+Console.WriteLine("Введите число:");
+int num = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Сумма цифр в числе {num} ровно {DoSum1(num)}");
 
-
+int DoSum1(int A){
+    int sum = 0;
+    for(int i = 0; i < A; A /= 10){
+        sum += (A%10);
+    }
+    return sum;
+}
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 рандомных элементов и выводит их на экран.
 
