@@ -44,20 +44,35 @@
 //     return sum; 
 // }
 
-Console.WriteLine("Введите число:");
-int num = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Сумма цифр в числе {num} ровно {DoSum1(num)}");
+// Console.WriteLine("Введите число:");
+// int num = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Сумма цифр в числе {num} ровно {DoSum1(num)}");
 
-int DoSum1(int A){
-    int sum = 0;
-    for(int i = 0; i < A; A /= 10){
-        sum += (A%10);
-    }
-    return sum;
-}
+// int DoSum1(int A){
+//     int sum = 0;
+//     for(int i = 0; i < A; A /= 10){
+//         sum += (A%10);
+//     }
+//     return sum;
+// }
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 рандомных элементов и выводит их на экран.
 
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 
 // 6, 1, 33 -> [6, 1, 33]
+
+int[] array = FillArray();
+
+foreach (int i in array){
+Console.WriteLine(i);
+}
+
+int [] FillArray(){
+    int[] array = new int[8];
+    for (int i = 0; i < array.Length; i++){
+        array[i] = new Random().Next(1, 1000);
+    }
+    return array;
+}
+
